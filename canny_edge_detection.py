@@ -135,5 +135,5 @@ class cannyEdgeDetector:
 			self.thresholdImg = self.threshold(self.nonMaxImg)
 			imgs_final = self.hysteresis(self.thresholdImg)
 			self.imgs_final.append(imgs_final)
-
+			
 		return self.imgs_final
